@@ -12,8 +12,15 @@ def generate_launch_description():
         )
     )
 
+    rsp_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(get_package_share_directory('vla_description'), 'launch', 'rsp.launch.py')
+        )
+    )
+
     return LaunchDescription([
         gazebo_launch,
+        rsp_launch,
         Node(
             package='vla_perception',
             executable='vlm_node',
