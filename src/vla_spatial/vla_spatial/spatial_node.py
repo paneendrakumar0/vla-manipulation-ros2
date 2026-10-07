@@ -45,17 +45,33 @@ class SpatialTransformNode(Node):
         # Extract the 3D point from the PointCloud2 at (center_x, center_y)
         # Assuming an organized point cloud (width, height)
         pc = self.latest_pointcloud
-        if pc.height > 1:
-            # Organized point cloud
-            gen = pc2.read_points(pc, field_names=("x", "y", "z"), skip_nans=False, uvs=[[center_x, center_y]])
-            point = next(gen, None)
-        else:
-            # Unorganized point cloud - we mock the logic since index matching requires camera intrinsics
-            self.get_logger().warn("Unorganized point cloud detected. Mocking projection...")
-            point = (1.0, 0.0, 0.2)
-            
+        
+        import struct
+        
+        # Calculate 1D index
+        index = (center_y * pc.width) + center_x
+        point_step = pc.point_step
+        offset = index * point_step
+        
+        if offset >= len(pc.data):
+            self.get_logger().error(f"Calculated offset {offset} is out of bounds for pointcloud data.")
+            return
+
+        x_offset = next((f.offset for f in pc.fields if f.name == 'x'), 0)
+        y_offset = next((f.offset for f in pc.fields if f.name == 'y'), 4)
+        z_offset = next((f.offset for f in pc.fields if f.name == 'z'), 8)
+
+        try:
+            x = struct.unpack_from('f', pc.data, offset + x_offset)[0]
+            y = struct.unpack_from('f', pc.data, offset + y_offset)[0]
+            z = struct.unpack_from('f', pc.data, offset + z_offset)[0]
+            point = (x, y, z)
+        except struct.error as e:
+            self.get_logger().error(f"Struct unpack failed: {e}")
+            point = None
+
         if point is None or math.isnan(point[0]):
-            self.get_logger().error("Valid depth point not found at bbox center.")
+            self.get_logger().error("Valid depth point not found at bbox center (might be NaN).")
             return
 
         t = TransformStamped()

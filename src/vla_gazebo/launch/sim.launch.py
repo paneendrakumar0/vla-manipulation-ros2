@@ -38,8 +38,16 @@ def generate_launch_description():
         output='screen'
     )
 
+    static_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'camera_link'],
+        output='screen'
+    )
+
     return LaunchDescription([
         gz_resource_path,
         gz_sim,
-        bridge
+        bridge,
+        static_tf
     ])

@@ -29,18 +29,15 @@ private:
         std::string base_frame = "base_link"; // Assuming a standard robot base
 
         try {
-            if (tf_buffer_->canTransform(base_frame, target_frame, tf2::TimePointZero)) {
-                auto transform = tf_buffer_->lookupTransform(base_frame, target_frame, tf2::TimePointZero);
-                
-                RCLCPP_INFO(this->get_logger(), "Found target frame! Planning path...");
-                plan_and_execute(transform);
-                
-                // Stop the timer to prevent infinite looping during development
-                timer_->cancel();
-            }
+            auto transform = tf_buffer_->lookupTransform(base_frame, target_frame, tf2::TimePointZero);
+            
+            RCLCPP_INFO(this->get_logger(), "Found target frame! Planning path...");
+            plan_and_execute(transform);
+            
+            // Stop the timer to prevent infinite looping during development
+            timer_->cancel();
         } catch (const tf2::TransformException & ex) {
-            // Keep waiting
-            RCLCPP_DEBUG(this->get_logger(), "Waiting for target frame... %s", ex.what());
+            // Keep waiting silently
         }
     }
 
