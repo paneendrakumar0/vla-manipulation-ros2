@@ -1,0 +1,2 @@
+[console_scripts]
+spatial_node = vla_spatial.spatial_node:main

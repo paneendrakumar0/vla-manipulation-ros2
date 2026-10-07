@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating vla_spatial.egg-info
+writing vla_spatial.egg-info/PKG-INFO
+writing dependency_links to vla_spatial.egg-info/dependency_links.txt
+writing entry points to vla_spatial.egg-info/entry_points.txt
+writing requirements to vla_spatial.egg-info/requires.txt
+writing top-level names to vla_spatial.egg-info/top_level.txt
+writing manifest file 'vla_spatial.egg-info/SOURCES.txt'
+reading manifest file 'vla_spatial.egg-info/SOURCES.txt'
+writing manifest file 'vla_spatial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/python3.12/site-packages/vla-spatial.egg-link (link to .)
+Installing spatial_node script to /home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/vla_spatial
+
+Installed /home/paneendra/vla_manipulation_ros2/build/vla_spatial
+running symlink_data
+creating /home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/ament_index
+creating /home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/ament_index/resource_index
+creating /home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/ament_index/resource_index/packages
+symbolically linking /home/paneendra/vla_manipulation_ros2/build/vla_spatial/resource/vla_spatial -> /home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/ament_index/resource_index/packages
+symbolically linking /home/paneendra/vla_manipulation_ros2/build/vla_spatial/package.xml -> /home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial

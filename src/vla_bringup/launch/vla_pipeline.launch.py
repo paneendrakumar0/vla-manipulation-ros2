@@ -16,10 +16,10 @@ def generate_launch_description():
             name='spatial_node',
             output='screen',
         ),
-        # Node(
-        #     package='vla_execution',
-        #     executable='moveit_wrapper_node',
-        #     name='moveit_wrapper_node',
-        #     output='screen',
-        # )
+        Node(
+            package='vla_execution',
+            executable='moveit_wrapper_node',
+            name='moveit_wrapper_node',
+            output='screen',
+        )
     ])

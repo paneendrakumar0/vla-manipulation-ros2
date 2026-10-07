@@ -1,0 +1,16 @@
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/lib/vla_execution/moveit_wrapper_node
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/ament_index/resource_index/package_run_dependencies/vla_execution
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/ament_index/resource_index/parent_prefix_path/vla_execution
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/ament_prefix_path.sh
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/ament_prefix_path.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/path.sh
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/path.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.bash
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.sh
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.zsh
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/ament_index/resource_index/packages/vla_execution
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/cmake/vla_executionConfig.cmake
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/cmake/vla_executionConfig-version.cmake
+/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.xml

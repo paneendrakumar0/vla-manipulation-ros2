@@ -1,0 +1,2 @@
+[console_scripts]
+vlm_node = vla_perception.vlm_node:main

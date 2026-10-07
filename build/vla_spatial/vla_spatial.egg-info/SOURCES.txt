@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/vla_spatial
+vla_spatial/__init__.py
+vla_spatial/spatial_node.py
+vla_spatial.egg-info/PKG-INFO
+vla_spatial.egg-info/SOURCES.txt
+vla_spatial.egg-info/dependency_links.txt
+vla_spatial.egg-info/entry_points.txt
+vla_spatial.egg-info/requires.txt
+vla_spatial.egg-info/top_level.txt
+vla_spatial.egg-info/zip-safe

@@ -1,0 +1,1 @@
+/home/paneendra/vla_manipulation_ros2/build/vla_execution/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/vla_perception
+vla_perception/__init__.py
+vla_perception/vlm_node.py
+vla_perception.egg-info/PKG-INFO
+vla_perception.egg-info/SOURCES.txt
+vla_perception.egg-info/dependency_links.txt
+vla_perception.egg-info/entry_points.txt
+vla_perception.egg-info/requires.txt
+vla_perception.egg-info/top_level.txt
+vla_perception.egg-info/zip-safe
