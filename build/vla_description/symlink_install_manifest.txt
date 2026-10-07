@@ -1,0 +1,17 @@
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/launch/rsp.launch.py
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/urdf/vla_arm.urdf.xacro
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/package_run_dependencies/vla_description
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/parent_prefix_path/vla_description
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/ament_prefix_path.sh
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/ament_prefix_path.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/path.sh
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/path.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.bash
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.sh
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.zsh
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.dsv
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/packages/vla_description
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/cmake/vla_descriptionConfig.cmake
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/cmake/vla_descriptionConfig-version.cmake
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.xml

@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/paneendra/vla_manipulation_ros2/src/vla_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paneendra/vla_manipulation_ros2/install/vla_description
+[0.135s] -- The C compiler identification is GNU 13.3.0
+[0.136s] -- The CXX compiler identification is GNU 13.3.0
+[0.136s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.251s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.423s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.486s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.486s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.486s] -- Added test 'lint_cmake' to check CMake code style
+[0.487s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.487s] -- Added test 'xmllint' to check XML markup files
+[0.488s] -- Configuring done (0.5s)
+[0.490s] -- Generating done (0.0s)
+[0.490s] -- Build files have been written to: /home/paneendra/vla_manipulation_ros2/build/vla_description
+[0.494s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/paneendra/vla_manipulation_ros2/src/vla_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paneendra/vla_manipulation_ros2/install/vla_description
+[0.494s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_description -- -j32 -l32
+[0.526s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_description -- -j32 -l32
+[0.527s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_description
+[0.534s] -- Install configuration: ""
+[0.534s] -- Execute custom install script
+[0.534s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/launch/rsp.launch.py
+[0.541s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/urdf/vla_arm.urdf.xacro
+[0.548s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/package_run_dependencies/vla_description
+[0.553s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/parent_prefix_path/vla_description
+[0.559s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/ament_prefix_path.sh
+[0.567s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/ament_prefix_path.dsv
+[0.575s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/path.sh
+[0.582s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/path.dsv
+[0.589s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.bash
+[0.596s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.sh
+[0.603s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.zsh
+[0.610s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/local_setup.dsv
+[0.616s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.dsv
+[0.622s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/packages/vla_description
+[0.629s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/cmake/vla_descriptionConfig.cmake
+[0.636s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/cmake/vla_descriptionConfig-version.cmake
+[0.642s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.xml
+[0.650s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_description

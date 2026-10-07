@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paneendra/vla_manipulation_ros2/install/vla_spatial:/home/paneendra/vla_manipulation_ros2/install/vla_perception:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_gazebo -- -j32 -l32
+[0.261s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paneendra/vla_manipulation_ros2/install/vla_spatial:/home/paneendra/vla_manipulation_ros2/install/vla_perception:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_gazebo -- -j32 -l32
+[0.262s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paneendra/vla_manipulation_ros2/install/vla_spatial:/home/paneendra/vla_manipulation_ros2/install/vla_perception:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_gazebo
+[0.267s] -- Install configuration: ""
+[0.275s] -- Execute custom install script
+[0.275s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/launch/sim.launch.py
+[0.275s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/worlds/vla_world.sdf
+[0.275s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/models/red_block/model.config
+[0.275s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/models/red_block/model.sdf
+[0.275s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/ament_index/resource_index/package_run_dependencies/vla_gazebo
+[0.275s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/ament_index/resource_index/parent_prefix_path/vla_gazebo
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/environment/ament_prefix_path.sh
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/environment/ament_prefix_path.dsv
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/environment/path.sh
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/environment/path.dsv
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/local_setup.bash
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/local_setup.sh
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/local_setup.zsh
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/local_setup.dsv
+[0.276s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.dsv
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/ament_index/resource_index/packages/vla_gazebo
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/cmake/vla_gazeboConfig.cmake
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/cmake/vla_gazeboConfig-version.cmake
+[0.276s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.xml
+[0.288s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paneendra/vla_manipulation_ros2/install/vla_spatial:/home/paneendra/vla_manipulation_ros2/install/vla_perception:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_gazebo

@@ -17,10 +17,17 @@ def generate_launch_description():
             os.path.join(get_package_share_directory('vla_description'), 'launch', 'rsp.launch.py')
         )
     )
+    
+    move_group_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(get_package_share_directory('vla_moveit_config'), 'launch', 'move_group.launch.py')
+        )
+    )
 
     return LaunchDescription([
         gazebo_launch,
         rsp_launch,
+        move_group_launch,
         Node(
             package='vla_perception',
             executable='vlm_node',

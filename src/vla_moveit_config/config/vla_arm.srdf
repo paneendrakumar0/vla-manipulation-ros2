@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="vla_arm">
+    <group name="manipulator">
+        <chain base_link="base_link" tip_link="end_effector"/>
+    </group>
+    
+    <group_state name="home" group="manipulator">
+        <joint name="joint_1" value="0"/>
+        <joint name="joint_2" value="0"/>
+    </group_state>
+
+    <disable_collisions link1="base_link" link2="link_1" reason="Adjacent"/>
+    <disable_collisions link1="link_1" link2="link_2" reason="Adjacent"/>
+</robot>

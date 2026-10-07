@@ -1,0 +1,17 @@
+[1.053s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_spatial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_spatial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_spatial/build --no-deps symlink_data
+[1.299s] running develop
+[1.432s] running egg_info
+[1.443s] writing vla_spatial.egg-info/PKG-INFO
+[1.443s] writing dependency_links to vla_spatial.egg-info/dependency_links.txt
+[1.444s] writing entry points to vla_spatial.egg-info/entry_points.txt
+[1.444s] writing requirements to vla_spatial.egg-info/requires.txt
+[1.444s] writing top-level names to vla_spatial.egg-info/top_level.txt
+[1.471s] reading manifest file 'vla_spatial.egg-info/SOURCES.txt'
+[1.471s] writing manifest file 'vla_spatial.egg-info/SOURCES.txt'
+[1.484s] running build_ext
+[1.484s] Creating /home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/python3.12/site-packages/vla-spatial.egg-link (link to .)
+[1.484s] Installing spatial_node script to /home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/vla_spatial
+[1.484s] 
+[1.484s] Installed /home/paneendra/vla_manipulation_ros2/build/vla_spatial
+[1.484s] running symlink_data
+[1.510s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_spatial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_spatial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_spatial/build --no-deps symlink_data

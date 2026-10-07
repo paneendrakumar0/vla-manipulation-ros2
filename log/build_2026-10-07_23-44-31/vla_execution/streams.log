@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_execution -- -j32 -l32
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_node.dir/src/moveit_wrapper_node.cpp.o[0m
+[5.756s] [100%] [32m[1mLinking CXX executable moveit_wrapper_node[0m
+[6.517s] [100%] Built target moveit_wrapper_node
+[6.526s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_execution -- -j32 -l32
+[6.527s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_execution
+[6.533s] -- Install configuration: ""
+[6.533s] -- Execute custom install script
+[6.533s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/lib/vla_execution/moveit_wrapper_node
+[6.533s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/ament_index/resource_index/package_run_dependencies/vla_execution
+[6.534s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/ament_index/resource_index/parent_prefix_path/vla_execution
+[6.534s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/ament_prefix_path.sh
+[6.534s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/ament_prefix_path.dsv
+[6.534s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/path.sh
+[6.534s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/environment/path.dsv
+[6.534s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.bash
+[6.534s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.sh
+[6.535s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.zsh
+[6.535s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/local_setup.dsv
+[6.535s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.dsv
+[6.544s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/ament_index/resource_index/packages/vla_execution
+[6.544s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/cmake/vla_executionConfig.cmake
+[6.544s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/cmake/vla_executionConfig-version.cmake
+[6.544s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.xml
+[6.546s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_execution
