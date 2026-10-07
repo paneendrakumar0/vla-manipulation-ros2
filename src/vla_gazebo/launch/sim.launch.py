@@ -51,7 +51,9 @@ def generate_launch_description():
         arguments=[
             '-name', 'vla_arm',
             '-topic', 'robot_description',
-            '-z', '0.05'
+            '-x', '0.0',
+            '-y', '0.0',
+            '-z', '0.81'
         ],
         output='screen'
     )

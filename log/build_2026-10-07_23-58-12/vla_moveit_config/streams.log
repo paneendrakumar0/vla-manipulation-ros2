@@ -1,0 +1,28 @@
+[0.027s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config -- -j32 -l32
+[0.150s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config -- -j32 -l32
+[0.151s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config
+[0.284s] -- Install configuration: ""
+[0.284s] -- Execute custom install script
+[0.284s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/config/joint_limits.yaml
+[0.284s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/config/kinematics.yaml
+[0.284s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/config/moveit_controllers.yaml
+[0.284s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/config/ompl_planning.yaml
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/config/vla_arm.srdf
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/config/vla_arm.urdf.xacro
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/launch/move_group.launch.py
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/ament_index/resource_index/package_run_dependencies/vla_moveit_config
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/ament_index/resource_index/parent_prefix_path/vla_moveit_config
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/environment/ament_prefix_path.sh
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/environment/ament_prefix_path.dsv
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/environment/path.sh
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/environment/path.dsv
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/local_setup.bash
+[0.285s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/local_setup.sh
+[0.286s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/local_setup.zsh
+[0.286s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/local_setup.dsv
+[0.286s] -- Symlinking: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.dsv
+[0.286s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/ament_index/resource_index/packages/vla_moveit_config
+[0.286s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/cmake/vla_moveit_configConfig.cmake
+[0.286s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/cmake/vla_moveit_configConfig-version.cmake
+[0.286s] -- Up-to-date symlink: /home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.xml
+[0.306s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config

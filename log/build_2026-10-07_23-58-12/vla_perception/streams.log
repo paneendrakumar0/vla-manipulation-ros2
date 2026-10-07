@@ -1,0 +1,17 @@
+[0.781s] Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_perception': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_perception/build --no-deps symlink_data
+[0.964s] running develop
+[1.068s] running egg_info
+[1.078s] writing vla_perception.egg-info/PKG-INFO
+[1.078s] writing dependency_links to vla_perception.egg-info/dependency_links.txt
+[1.078s] writing entry points to vla_perception.egg-info/entry_points.txt
+[1.079s] writing requirements to vla_perception.egg-info/requires.txt
+[1.079s] writing top-level names to vla_perception.egg-info/top_level.txt
+[1.099s] reading manifest file 'vla_perception.egg-info/SOURCES.txt'
+[1.099s] writing manifest file 'vla_perception.egg-info/SOURCES.txt'
+[1.111s] running build_ext
+[1.111s] Creating /home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/python3.12/site-packages/vla-perception.egg-link (link to .)
+[1.111s] Installing vlm_node script to /home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/vla_perception
+[1.111s] 
+[1.111s] Installed /home/paneendra/vla_manipulation_ros2/build/vla_perception
+[1.111s] running symlink_data
+[1.129s] Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_perception' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_perception/build --no-deps symlink_data
