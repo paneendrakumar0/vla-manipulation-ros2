@@ -45,9 +45,21 @@ def generate_launch_description():
         output='screen'
     )
 
+    spawn_entity = Node(
+        package='ros_gz_sim',
+        executable='create',
+        arguments=[
+            '-name', 'vla_arm',
+            '-topic', 'robot_description',
+            '-z', '0.05'
+        ],
+        output='screen'
+    )
+
     return LaunchDescription([
         gz_resource_path,
         gz_sim,
         bridge,
-        static_tf
+        static_tf,
+        spawn_entity
     ])
