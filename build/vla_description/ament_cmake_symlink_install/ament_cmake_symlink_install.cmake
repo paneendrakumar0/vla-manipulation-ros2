@@ -315,8 +315,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "urdf" "DESTINATION" "share/vla_description")
-ament_cmake_symlink_install_directory("/home/paneendra/vla_manipulation_ros2/src/vla_description" DIRECTORY "launch" "urdf" "DESTINATION" "share/vla_description")
+# install(DIRECTORY "launch" "urdf" "config" "DESTINATION" "share/vla_description")
+ament_cmake_symlink_install_directory("/home/paneendra/vla_manipulation_ros2/src/vla_description" DIRECTORY "launch" "urdf" "config" "DESTINATION" "share/vla_description")
 
 # install(FILES "/home/paneendra/vla_manipulation_ros2/build/vla_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/vla_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/paneendra/vla_manipulation_ros2/src/vla_description" FILES "/home/paneendra/vla_manipulation_ros2/build/vla_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/vla_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

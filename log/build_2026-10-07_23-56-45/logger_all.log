@@ -1,0 +1,500 @@
+[0.057s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.057s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7496b8cbd5e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7496b8dd54f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7496b8dd54f0>>, mixin_verb=('build',))
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.076s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/paneendra/vla_manipulation_ros2'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_bringup) by extension 'ros'
+[0.093s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_bringup' with type 'ros.ament_cmake' and name 'vla_bringup'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_description) by extension 'ros'
+[0.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_description' with type 'ros.ament_cmake' and name 'vla_description'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_execution) by extension 'ros'
+[0.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_execution' with type 'ros.ament_cmake' and name 'vla_execution'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_gazebo) by extension 'ros'
+[0.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_gazebo' with type 'ros.ament_cmake' and name 'vla_gazebo'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_moveit_config) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_moveit_config' with type 'ros.ament_cmake' and name 'vla_moveit_config'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_perception) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_perception' with type 'ros.ament_python' and name 'vla_perception'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_spatial) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_spatial' with type 'ros.ament_python' and name 'vla_spatial'
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.108s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 458 installed packages in /opt/ros/jazzy
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'vla_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paneendra/vla_manipulation_ros2/build/vla_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paneendra/vla_manipulation_ros2/install/vla_bringup', 'merge_install': False, 'path': '/home/paneendra/vla_manipulation_ros2/src/vla_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'vla_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paneendra/vla_manipulation_ros2/build/vla_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paneendra/vla_manipulation_ros2/install/vla_description', 'merge_install': False, 'path': '/home/paneendra/vla_manipulation_ros2/src/vla_description', 'symlink_install': True, 'test_result_base': None}
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'vla_execution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'vla_execution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paneendra/vla_manipulation_ros2/build/vla_execution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paneendra/vla_manipulation_ros2/install/vla_execution', 'merge_install': False, 'path': '/home/paneendra/vla_manipulation_ros2/src/vla_execution', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'vla_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo', 'merge_install': False, 'path': '/home/paneendra/vla_manipulation_ros2/src/vla_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'vla_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config', 'merge_install': False, 'path': '/home/paneendra/vla_manipulation_ros2/src/vla_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'vla_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paneendra/vla_manipulation_ros2/build/vla_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paneendra/vla_manipulation_ros2/install/vla_perception', 'merge_install': False, 'path': '/home/paneendra/vla_manipulation_ros2/src/vla_perception', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'vla_spatial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'vla_spatial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paneendra/vla_manipulation_ros2/build/vla_spatial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paneendra/vla_manipulation_ros2/install/vla_spatial', 'merge_install': False, 'path': '/home/paneendra/vla_manipulation_ros2/src/vla_spatial', 'symlink_install': True, 'test_result_base': None}
+[0.136s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paneendra/vla_manipulation_ros2/src/vla_bringup' with build type 'ament_cmake'
+[0.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paneendra/vla_manipulation_ros2/src/vla_bringup'
+[0.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.141s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paneendra/vla_manipulation_ros2/src/vla_description' with build type 'ament_cmake'
+[0.141s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paneendra/vla_manipulation_ros2/src/vla_description'
+[0.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paneendra/vla_manipulation_ros2/src/vla_execution' with build type 'ament_cmake'
+[0.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paneendra/vla_manipulation_ros2/src/vla_execution'
+[0.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.145s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paneendra/vla_manipulation_ros2/src/vla_gazebo' with build type 'ament_cmake'
+[0.145s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paneendra/vla_manipulation_ros2/src/vla_gazebo'
+[0.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.147s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paneendra/vla_manipulation_ros2/src/vla_moveit_config' with build type 'ament_cmake'
+[0.147s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paneendra/vla_manipulation_ros2/src/vla_moveit_config'
+[0.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.150s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paneendra/vla_manipulation_ros2/src/vla_perception' with build type 'ament_python'
+[0.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_perception', 'ament_prefix_path')
+[0.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/hook/ament_prefix_path.ps1'
+[0.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/hook/ament_prefix_path.dsv'
+[0.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/hook/ament_prefix_path.sh'
+[0.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.153s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paneendra/vla_manipulation_ros2/src/vla_spatial' with build type 'ament_python'
+[0.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_spatial', 'ament_prefix_path')
+[0.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/hook/ament_prefix_path.ps1'
+[0.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/hook/ament_prefix_path.dsv'
+[0.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/hook/ament_prefix_path.sh'
+[0.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_bringup -- -j32 -l32
+[0.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_description -- -j32 -l32
+[0.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_execution -- -j32 -l32
+[0.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_gazebo -- -j32 -l32
+[0.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config -- -j32 -l32
+[0.304s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paneendra/vla_manipulation_ros2/src/vla_perception'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_bringup -- -j32 -l32
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_bringup
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_gazebo -- -j32 -l32
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_gazebo
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config -- -j32 -l32
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config
+[0.454s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paneendra/vla_manipulation_ros2/src/vla_spatial'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_bringup)
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_bringup
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup' for CMake module files
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup' for CMake config files
+[0.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_bringup', 'cmake_prefix_path')
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/hook/cmake_prefix_path.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/hook/cmake_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/hook/cmake_prefix_path.sh'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/bin'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/lib/pkgconfig/vla_bringup.pc'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/lib/python3.12/site-packages'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/bin'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.ps1'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.sh'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.bash'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.zsh'
+[0.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/colcon-core/packages/vla_bringup)
+[0.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_bringup)
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup' for CMake module files
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup' for CMake config files
+[0.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_bringup', 'cmake_prefix_path')
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/hook/cmake_prefix_path.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/hook/cmake_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/hook/cmake_prefix_path.sh'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/bin'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/lib/pkgconfig/vla_bringup.pc'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/lib/python3.12/site-packages'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/bin'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.sh'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.bash'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/vla_bringup/package.zsh'
+[0.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_bringup/share/colcon-core/packages/vla_bringup)
+[0.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_gazebo)
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo' for CMake module files
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo' for CMake config files
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_gazebo
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_gazebo', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/hook/cmake_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/bin'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/lib/pkgconfig/vla_gazebo.pc'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/lib/python3.12/site-packages'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/bin'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.sh'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.bash'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.zsh'
+[0.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/colcon-core/packages/vla_gazebo)
+[0.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_gazebo)
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo' for CMake module files
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo' for CMake config files
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_gazebo', 'cmake_prefix_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/hook/cmake_prefix_path.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/hook/cmake_prefix_path.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/hook/cmake_prefix_path.sh'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/bin'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/lib/pkgconfig/vla_gazebo.pc'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/lib/python3.12/site-packages'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/bin'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.dsv'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.sh'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.bash'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/vla_gazebo/package.zsh'
+[0.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_gazebo/share/colcon-core/packages/vla_gazebo)
+[0.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_moveit_config)
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config' for CMake module files
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_moveit_config
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config' for CMake config files
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_moveit_config', 'cmake_prefix_path')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/hook/cmake_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/hook/cmake_prefix_path.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/hook/cmake_prefix_path.sh'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/bin'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/lib/pkgconfig/vla_moveit_config.pc'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/lib/python3.12/site-packages'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/bin'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.sh'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.bash'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.zsh'
+[0.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/colcon-core/packages/vla_moveit_config)
+[0.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_moveit_config)
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config' for CMake module files
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config' for CMake config files
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_moveit_config', 'cmake_prefix_path')
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/hook/cmake_prefix_path.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/hook/cmake_prefix_path.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/hook/cmake_prefix_path.sh'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/bin'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/lib/pkgconfig/vla_moveit_config.pc'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/lib/python3.12/site-packages'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/bin'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.ps1'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.sh'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.bash'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/vla_moveit_config/package.zsh'
+[0.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_moveit_config/share/colcon-core/packages/vla_moveit_config)
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_description -- -j32 -l32
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_description
+[0.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_description)
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description' for CMake module files
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_description
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description' for CMake config files
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_description', 'cmake_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/hook/cmake_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/hook/cmake_prefix_path.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/hook/cmake_prefix_path.sh'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/bin'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/lib/pkgconfig/vla_description.pc'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/lib/python3.12/site-packages'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/bin'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.sh'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.bash'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.zsh'
+[0.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_description/share/colcon-core/packages/vla_description)
+[0.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_description)
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description' for CMake module files
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description' for CMake config files
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_description', 'cmake_prefix_path')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/hook/cmake_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/hook/cmake_prefix_path.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/hook/cmake_prefix_path.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/bin'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/lib/pkgconfig/vla_description.pc'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/lib/python3.12/site-packages'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_description/bin'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.sh'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.bash'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/package.zsh'
+[0.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_description/share/colcon-core/packages/vla_description)
+[0.797s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, saveopts, upload_docs, bdist_dumb, register, sdist, easy_install, bdist, upload, check, bdist_egg, build_scripts, build_ext, install_data, develop, update_catalog, install_scripts, extract_messages, rotate, install_egg_info, bdist_wheel, install_lib, build, install_headers, build_py, test, editable_wheel, clean, dist_info, egg_info, alias, setopt, symlink_data, init_catalog, bdist_rpm, compile_catalog, build_clib
+[0.827s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, saveopts, upload_docs, bdist_dumb, register, sdist, easy_install, bdist, upload, check, bdist_egg, build_scripts, build_ext, install_data, develop, update_catalog, install_scripts, extract_messages, rotate, install_egg_info, bdist_wheel, install_lib, build, install_headers, build_py, test, editable_wheel, clean, dist_info, egg_info, alias, setopt, symlink_data, init_catalog, bdist_rpm, compile_catalog, build_clib
+[0.984s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --install-dir, --no-user-cfg, --find-links, --local-snapshots-ok, --always-unzip, --prefix, --force-installation-into-system-dir, --exclude-scripts, --zip-ok, --no-deps, --install-layout, --upgrade, --record, --optimize, --always-copy, --no-find-links, --egg-path, --site-dirs, --user, --build-directory, --script-dir, --quiet, --dry-run, --help, --index-url, --allow-hosts, --editable, --version, --uninstall, --verbose, --multi-version
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_perception': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_perception/build --no-deps symlink_data
+[1.005s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --install-dir, --no-user-cfg, --find-links, --local-snapshots-ok, --always-unzip, --prefix, --force-installation-into-system-dir, --exclude-scripts, --zip-ok, --no-deps, --install-layout, --upgrade, --record, --optimize, --always-copy, --no-find-links, --egg-path, --site-dirs, --user, --build-directory, --script-dir, --quiet, --dry-run, --help, --index-url, --allow-hosts, --editable, --version, --uninstall, --verbose, --multi-version
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_spatial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_spatial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_spatial/build --no-deps symlink_data
+[1.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_perception', 'pythonpath_develop')
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/build/vla_perception/share/vla_perception/hook/pythonpath_develop.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/build/vla_perception/share/vla_perception/hook/pythonpath_develop.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/build/vla_perception/share/vla_perception/hook/pythonpath_develop.sh'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_perception' for CMake module files
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_perception' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_perception/build --no-deps symlink_data
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_perception' for CMake config files
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_perception/lib'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_perception/bin'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/pkgconfig/vla_perception.pc'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_perception/lib/python3.12/site-packages'
+[1.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_perception', 'pythonpath')
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/hook/pythonpath.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/hook/pythonpath.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/hook/pythonpath.sh'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_perception/bin'
+[1.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_perception)
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/package.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/package.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/package.sh'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/package.bash'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/vla_perception/package.zsh'
+[1.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_perception/share/colcon-core/packages/vla_perception)
+[1.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_spatial', 'pythonpath_develop')
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/build/vla_spatial/share/vla_spatial/hook/pythonpath_develop.ps1'
+[1.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_spatial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/paneendra/vla_manipulation_ros2/build/vla_spatial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paneendra/vla_manipulation_ros2/build/vla_spatial/build --no-deps symlink_data
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/build/vla_spatial/share/vla_spatial/hook/pythonpath_develop.dsv'
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/build/vla_spatial/share/vla_spatial/hook/pythonpath_develop.sh'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_spatial' for CMake module files
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_spatial' for CMake config files
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/bin'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/pkgconfig/vla_spatial.pc'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/lib/python3.12/site-packages'
+[1.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_spatial', 'pythonpath')
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/hook/pythonpath.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/hook/pythonpath.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/hook/pythonpath.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/bin'
+[1.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_spatial)
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/package.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/package.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/package.sh'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/package.bash'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/vla_spatial/package.zsh'
+[1.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_spatial/share/colcon-core/packages/vla_spatial)
+[4.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/paneendra/vla_manipulation_ros2/build/vla_execution -- -j32 -l32
+[4.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_execution
+[4.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_execution)
+[4.415s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution' for CMake module files
+[4.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paneendra/vla_manipulation_ros2/build/vla_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/paneendra/vla_manipulation_ros2/build/vla_execution
+[4.415s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution' for CMake config files
+[4.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_execution', 'cmake_prefix_path')
+[4.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/hook/cmake_prefix_path.ps1'
+[4.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/hook/cmake_prefix_path.dsv'
+[4.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/hook/cmake_prefix_path.sh'
+[4.416s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/lib'
+[4.416s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/bin'
+[4.416s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/lib/pkgconfig/vla_execution.pc'
+[4.416s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/lib/python3.12/site-packages'
+[4.417s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/bin'
+[4.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.ps1'
+[4.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.dsv'
+[4.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.sh'
+[4.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.bash'
+[4.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.zsh'
+[4.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/colcon-core/packages/vla_execution)
+[4.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_execution)
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution' for CMake module files
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution' for CMake config files
+[4.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_execution', 'cmake_prefix_path')
+[4.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/hook/cmake_prefix_path.ps1'
+[4.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/hook/cmake_prefix_path.dsv'
+[4.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/hook/cmake_prefix_path.sh'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/lib'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/bin'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/lib/pkgconfig/vla_execution.pc'
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/lib/python3.12/site-packages'
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/home/paneendra/vla_manipulation_ros2/install/vla_execution/bin'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.ps1'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.dsv'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.sh'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.bash'
+[4.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/vla_execution/package.zsh'
+[4.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paneendra/vla_manipulation_ros2/install/vla_execution/share/colcon-core/packages/vla_execution)
+[4.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.420s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.425s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.437s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paneendra/vla_manipulation_ros2/install/local_setup.ps1'
+[4.437s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paneendra/vla_manipulation_ros2/install/_local_setup_util_ps1.py'
+[4.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paneendra/vla_manipulation_ros2/install/setup.ps1'
+[4.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paneendra/vla_manipulation_ros2/install/local_setup.sh'
+[4.439s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paneendra/vla_manipulation_ros2/install/_local_setup_util_sh.py'
+[4.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paneendra/vla_manipulation_ros2/install/setup.sh'
+[4.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paneendra/vla_manipulation_ros2/install/local_setup.bash'
+[4.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paneendra/vla_manipulation_ros2/install/setup.bash'
+[4.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paneendra/vla_manipulation_ros2/install/local_setup.zsh'
+[4.440s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paneendra/vla_manipulation_ros2/install/setup.zsh'

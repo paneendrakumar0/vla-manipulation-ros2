@@ -1,5 +1,6 @@
 /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/launch/rsp.launch.py
 /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/urdf/vla_arm.urdf.xacro
+/home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/config/ros2_controllers.yaml
 /home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/package_run_dependencies/vla_description
 /home/paneendra/vla_manipulation_ros2/install/vla_description/share/ament_index/resource_index/parent_prefix_path/vla_description
 /home/paneendra/vla_manipulation_ros2/install/vla_description/share/vla_description/environment/ament_prefix_path.sh

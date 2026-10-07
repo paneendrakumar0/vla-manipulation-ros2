@@ -55,24 +55,24 @@ private:
 
         RCLCPP_INFO(this->get_logger(), "Target coordinates extracted. Initializing MoveGroupInterface...");
         
-        /* 
-        // This code requires a running MoveIt 2 instance to compile/run without crashing
-        
         using moveit::planning_interface::MoveGroupInterface;
-        auto move_group = MoveGroupInterface(shared_from_this(), "manipulator");
+        
+        try {
+            auto move_group = MoveGroupInterface(shared_from_this(), "manipulator");
+            move_group.setPoseTarget(target_pose);
 
-        move_group.setPoseTarget(target_pose);
+            MoveGroupInterface::Plan my_plan;
+            bool success = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
 
-        MoveGroupInterface::Plan my_plan;
-        bool success = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
-
-        if (success) {
-            RCLCPP_INFO(this->get_logger(), "Plan successful. Executing...");
-            move_group.execute(my_plan);
-        } else {
-            RCLCPP_ERROR(this->get_logger(), "Planning failed!");
+            if (success) {
+                RCLCPP_INFO(this->get_logger(), "Plan successful. Executing...");
+                move_group.execute(my_plan);
+            } else {
+                RCLCPP_ERROR(this->get_logger(), "Planning failed!");
+            }
+        } catch (const std::exception& e) {
+            RCLCPP_ERROR(this->get_logger(), "MoveGroupInterface initialization failed: %s", e.what());
         }
-        */
         
         RCLCPP_INFO(this->get_logger(), "Mock execution complete. Ready for next command.");
     }

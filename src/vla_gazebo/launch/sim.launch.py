@@ -56,10 +56,26 @@ def generate_launch_description():
         output='screen'
     )
 
+    load_joint_state_broadcaster = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster"],
+        output="screen",
+    )
+
+    load_arm_controller = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["arm_controller"],
+        output="screen",
+    )
+
     return LaunchDescription([
         gz_resource_path,
         gz_sim,
         bridge,
         static_tf,
-        spawn_entity
+        spawn_entity,
+        load_joint_state_broadcaster,
+        load_arm_controller
     ])
